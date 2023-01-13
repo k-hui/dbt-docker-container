@@ -1,2 +1,2 @@
-# dbt-container
+# dbt-docker-container
 DBT docker container
