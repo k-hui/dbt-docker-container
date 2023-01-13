@@ -19,3 +19,32 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
+### Step by Step Development
+
+#### Setup database in container
+
+```
+docker-compose up -d
+```
+
+#### Install dbt-core & database adapter (postgres)
+
+```
+pip install dbt-postgres
+```
+
+#### Initialize dbt project
+
+```
+dbt init
+```
+
+#### Install FastAPI
+
+- https://fastapi.tiangolo.com/tutorial/
+
+```
+pip install fastapi
+pip install "uvicorn[standard]"
+```
