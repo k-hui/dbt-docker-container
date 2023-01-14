@@ -24,7 +24,7 @@ ENV LANG=C.UTF-8
 WORKDIR /app
 
 COPY main.py /app
-COPY dbt /app/dbt
+COPY example /app/example
 
 COPY requirements.txt /app
 RUN pip install --no-cache-dir -r requirements.txt
