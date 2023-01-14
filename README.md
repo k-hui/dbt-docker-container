@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ### Step by Step Development
 
-#### Setup local database in container
+#### Setup server and database in container
 
 ```bash
 # setup containers
@@ -59,7 +59,7 @@ pip install fastapi
 pip install "uvicorn[standard]"
 ```
 
-#### Start local server
+#### Start local server in host (not docker container)
 
 ```bash
 sh run-start.sh
@@ -68,6 +68,6 @@ sh run-start.sh
 #### Testing
 
 ```bash
-sh run-debug.sh
-sh run-post.sh
+sh run-dbt-debug.sh
+sh run-dbt-run.sh
 ```
