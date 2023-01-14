@@ -13,6 +13,7 @@ services:
   dbt:
     build: .
     image: dbt-server
+    restart: always
     container_name: dbt-app
     ports:
       - 8000:80
