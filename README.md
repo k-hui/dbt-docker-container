@@ -8,7 +8,8 @@ DBT docker container with Python FastAPI
 - Docker Desktop (https://www.docker.com/products/docker-desktop/)
 - Python 3.9+ (https://www.python.org/downloads/)
 - Install dbt with pip (https://docs.getdbt.com/docs/get-started/pip-install)
-- Visual Studio Code (optional)
+- PyCharm community [Recommend] (https://www.jetbrains.com/pycharm/download/#section=mac)
+- Visual Studio Code [optional] (https://code.visualstudio.com/)
 
 ## Getting Started
 
